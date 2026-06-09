@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": false,
+    "types": [
+      "node"
+    ],
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true // 🔥 ADD THIS
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js"
+, "src/components/LogoutModel/LogoutModel.jsx", "src/components/Filter/Filter.jsx"  ],
+  "exclude": [
+    "node_modules",
+    "android",
+    "ios",
+    "Pods"
+  ]
+}
+// {
+//   "compilerOptions": {
+//     "target": "esnext",
+//     "module": "commonjs",
+//     "jsx": "react",
+//     "strict": false,
+//     "types": ["node"]
+//   },
+//   "include": ["**/*.ts", "**/*.tsx"],
+//   "exclude": ["node_modules", "android", "ios", "Pods"]
+// }
