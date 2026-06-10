@@ -44,7 +44,7 @@ pipeline {
         stage('Build Client Image') {
             steps {
                 sh """
-                docker build -t ${CLIENT_IMAGE} ./client
+                docker build -t ${CLIENT_IMAGE} ./htclone
                 """
             }
         }
@@ -65,7 +65,7 @@ pipeline {
         stage('Send Email') {
             steps {
                 emailext (
-                    subject: "🚀 MERN App Deployed Successfully",
+                    subject: "🚀 React Native App Deployed Successfully",
                     body: """
                     Deployment Successful!
 

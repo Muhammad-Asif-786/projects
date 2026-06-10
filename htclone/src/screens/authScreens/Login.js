@@ -199,7 +199,7 @@ const Login = () => {
           <TouchableOpacity 
            onPress={()=> navigation.navigate("Register")}
           >
-            <Text style={styles.registerText}>Sign Up</Text>
+            <Text style={styles.registerText}>Sign Up.</Text>
           </TouchableOpacity>
         </View>
 
